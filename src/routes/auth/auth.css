@@ -1,40 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    font-family: 'Nunito', sans-serif;
-    font-size: 22px;
-}
-
-body {
-    min-height: 100vh;
-}
-
-.App {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh; 
-  padding: 1rem 0.5rem;
-}
-
-section {
+.auth0{
+    position: relative;
     width: 100%;
-    max-width: 420px;
-    min-height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    height: 640px;
+     padding: 1rem;
+     overflow: hidden;
+     background-color: rgb(223, 223, 223);
+}
+.auth1 {
+    position: relative;
+    top: 50px;
+    left: 35%;
+    width: 15rem;
+    flex-direction: row;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 6px;
     padding: 1rem;
-    background-color: rgba(0,0,0,0.4);
+    overflow: hidden;
+    background-color: rgb(216, 216, 216);
 }
 
+.button-switch{
+    cursor: pointer;
+}
+.botton-submit{
+    cursor: pointer;
+
+}
 form {
     display: flex;
     flex-direction: column;
@@ -44,7 +35,7 @@ form {
 }
 
 a, a:visited {
-    color: #fff;
+    color: #7a32ff;
 }
 
 input[type="text"],
@@ -109,4 +100,11 @@ button {
 
 .line {
     display: inline-block;
+}
+
+@media screen and  (max-width: 550px) {
+
+    .auth1{
+        left: 0;
+    }
 }

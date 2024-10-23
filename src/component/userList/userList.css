@@ -1,0 +1,13 @@
+.frist1{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(227, 221, 236);
+    color: rgb(85, 77, 77);
+    flex-direction: column;
+    
+}
+.h12{
+    font-size: 32px;
+}

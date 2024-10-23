@@ -1,0 +1,8 @@
+.tr{
+    position: relative;
+    gap: 2px;
+}
+.td{
+    padding: 5px;
+    gap: 2px;
+}
